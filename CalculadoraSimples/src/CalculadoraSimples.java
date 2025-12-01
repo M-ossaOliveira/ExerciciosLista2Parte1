@@ -38,6 +38,10 @@ public class CalculadoraSimples {
                 System.out.println("A multiplicação vale "+multiplicacao(x, y));
                 break;
             }
+            default{
+                System.err.println("Opção inválida");
+                break;
+            }
 
         }
 
